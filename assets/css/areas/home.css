@@ -1,0 +1,356 @@
+html {
+  font-size: 18px;
+}
+header {
+  text-align: center;
+  background-color: #2C4055;
+  color: #fff;
+  margin-bottom: 50px;
+  background-repeat: no-repeat;
+  background-size: 1566px;
+  background-position: 50% 75%;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  height: 600px;
+}
+header .hero-wrapper {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+header .logo-main {
+  width: 700px;
+}
+header h1 {
+  font-weight: 300;
+  font-size: 2.5rem;
+  margin-bottom: 65px;
+  margin-top: 60px;
+}
+header h1 img {
+  vertical-align: baseline;
+  width: 86px;
+}
+header h2 {
+  font-size: 1.25rem;
+  margin-bottom: 27px;
+  color: rgba(255, 255, 255, 0.85);
+}
+header .btn {
+  background: #21a66c;
+  color: #fff;
+  margin-right: 27px;
+  font-size: 1.15rem;
+  font-family: "din-condensed-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+header .btn:last-child {
+  margin-right: 27px;
+}
+header .btn:hover {
+  color: #fff;
+  background: #146642;
+}
+section {
+  text-align: center;
+  margin-bottom: 65px;
+  padding-bottom: 65px;
+  border-bottom: 1px solid #ccc;
+}
+section h2 {
+  color: #000;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  letter-spacing: 1px;
+  font-family: "din-condensed-web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 0;
+  line-height: 1.5em;
+  margin-bottom: 40px;
+}
+.summary {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+.summary blockquote {
+  padding: 0;
+  border-left: 0;
+  width: 85%;
+  margin: 0 auto;
+}
+.summary blockquote p {
+  font-size: 1.16666666666667rem;
+  font-weight: 300;
+  line-height: 1.75em;
+  margin-bottom: 30px;
+}
+.summary blockquote footer {
+  color: #444444;
+}
+.summary blockquote footer:before {
+  content: '';
+  display: none;
+}
+.social {
+  border-top: 1px solid #ccc;
+  padding-top: 65px;
+}
+.social .latest-tweets {
+  margin-bottom: 65px;
+}
+.social .latest-tweets .tweet p {
+  font-size: 0.88888888888889rem;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+}
+.social .latest-tweets .tweet time {
+  font-size: 0.72222222222222rem;
+  color: #999;
+  line-height: 1.5em;
+}
+.social .social-links ul li {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.social .social-links ul li a {
+  width: 64px;
+  display: block;
+  border: 3px solid #43B985;
+  border-radius: 50%;
+}
+.social .social-links ul li a img {
+  max-width: 100%;
+}
+.team {
+  margin-bottom: 30px;
+}
+.team .core-developers {
+  margin-bottom: 25px;
+}
+.team .core-developers .developer {
+  margin-bottom: 40px;
+  font-size: 0.88888888888889rem;
+  line-height: 1.5em;
+  height: 125px;
+}
+.team .core-developers .developer .avatar {
+  margin-bottom: 15px;
+  width: 70px;
+}
+.team .core-developers .developer p img {
+  margin-left: 7px;
+  width: 14px;
+  margin-top: -4px;
+}
+.team .available-positions {
+  width: 82%;
+  margin: 0 auto;
+}
+.team .available-positions p {
+  margin-bottom: 25px;
+  line-height: 1.5em;
+}
+.team .available-positions a img {
+  margin-right: 15px;
+  margin-top: -4px;
+  width: 27px;
+}
+.site-footer {
+  text-align: center;
+  font-size: 0.77777777777778rem;
+  color: #999;
+  margin-bottom: 30px;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  header {
+    height: 500px;
+  }
+  header .logo-main {
+    width: 500px;
+  }
+  header h2 {
+    font-size: 1.25rem;
+  }
+  .social {
+    padding-top: 50px;
+  }
+  .social .latest-tweets {
+    margin-bottom: 50px;
+  }
+  .social .latest-tweets .tweet {
+    margin-bottom: 40px;
+  }
+  .social .latest-tweets .tweet:last-child {
+    margin-bottom: 0;
+  }
+  .team .available-positions {
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  header {
+    height: 500px;
+  }
+  header .logo-main {
+    width: 500px;
+  }
+  header h2 {
+    font-size: 1.25rem;
+  }
+  section {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+  section h2 {
+    margin-bottom: 30px;
+  }
+  .summary blockquote p {
+    font-size: 1.06rem;
+  }
+  .social {
+    padding-top: 50px;
+  }
+  .social .latest-tweets {
+    margin-bottom: 50px;
+  }
+  .social .latest-tweets .tweet {
+    margin-bottom: 40px;
+  }
+  .social .latest-tweets .tweet:last-child {
+    margin-bottom: 0;
+  }
+  .team .core-developers {
+    margin-bottom: 0;
+  }
+  .team .available-positions {
+    width: 100%;
+    margin: 0;
+  }
+}
+@media (max-width: 767px) {
+  header {
+    background-position: 50% 75%;
+    height: 480px;
+    padding: 0 15px;
+  }
+  header .logo-main {
+    width: 70%;
+  }
+  header h1 {
+    font-size: 2rem;
+    line-height: 1em;
+    margin-bottom: 40px;
+    padding: 0 30px;
+  }
+  header h1 img {
+    width: 60px;
+  }
+  header h2 {
+    font-size: 1.125rem;
+  }
+  section {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+  section h2 {
+    margin-bottom: 30px;
+  }
+  .summary blockquote p {
+    font-size: 1.06rem;
+  }
+  .social {
+    padding-top: 50px;
+  }
+  .social .latest-tweets {
+    margin-bottom: 50px;
+  }
+  .social .latest-tweets .tweet {
+    margin-bottom: 40px;
+  }
+  .social .latest-tweets .tweet:last-child {
+    margin-bottom: 0;
+  }
+  .team .core-developers {
+    margin-bottom: 0;
+  }
+  .team .core-developers .developer {
+    font-size: 18px;
+  }
+  .team .available-positions {
+    width: 100%;
+    margin: 0;
+    font-size: 21px;
+  }
+  .site-footer {
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  html,
+  body {
+    font-size: 16px;
+  }
+  header {
+    padding: 30px 15px 40px;
+    margin-bottom: 30px;
+    background-position: 50% 50%;
+    background-size: 783px;
+    height: auto;
+  }
+  header .hero-wrapper {
+    position: static;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+  }
+  header .logo-main {
+    width: 85%;
+  }
+  header h1 {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    margin-top: 60px;
+  }
+  header h1 img {
+    width: 40px;
+  }
+  header .btn {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  section {
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+  }
+  section h2 {
+    margin-bottom: 30px;
+  }
+  .summary blockquote p {
+    font-size: 1.2rem;
+    line-height: 1.5em;
+  }
+  .social {
+    padding-top: 30px;
+  }
+  .social .latest-tweets {
+    margin-bottom: 50px;
+  }
+  .social .latest-tweets .tweet {
+    margin-bottom: 30px;
+  }
+  .social .latest-tweets .tweet:last-child {
+    margin-bottom: 0;
+  }
+  .team .core-developers {
+    margin-bottom: 0;
+  }
+  .team .available-positions {
+    width: 100%;
+    margin: 0;
+  }
+}
