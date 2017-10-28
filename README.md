@@ -1,2 +1,5 @@
-# bcexchange.org
-Blocks &amp; Chains Decentralized Exchange public site
+# B&C Exchange
+
+Official website for Blocks &amp; Chains Decentralized Exchange.
+
+<https://bcexchange.org>
